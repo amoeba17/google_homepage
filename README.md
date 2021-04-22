@@ -1,0 +1,1 @@
+This project will focus on deconstructing the google home page and rebuilding it using HTML and CSS. 
