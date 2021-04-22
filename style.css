@@ -33,3 +33,54 @@ main {
     border-color: grey;
     box-shadow: 1px 2px lightgrey;
 }
+
+#apps-img {
+    width: 30px;
+}
+
+#apps-img:hover {
+    box-shadow: 2px 2px lightgrey;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+li {
+    padding: 5px;
+}
+
+#sign-in-button {
+    background-color: royalblue;
+    height: 80%;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#sign-in-button:hover {
+    border-color: white;
+    box-shadow: 1px 2px lightgrey;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

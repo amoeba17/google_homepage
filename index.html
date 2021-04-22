@@ -6,13 +6,41 @@
         <title>Google</title>
     </head>
     <body>
+        <header>
+            <nav id="nav-bar">
+                <ul id="nav-ul" class="nav-ul">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Store</a>
+                    </li>
+                    <li>
+                        <a href="#">Gmail</a>
+                    </li>
+                    <li>
+                        <a href="#">Images</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img id="apps-img" alt="apps" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fgoogle-material-design-icons%2F48%2Fic_apps_48px-512.png&f=1&nofb=1" href="#">
+                        </a>    
+                    </li>
+                    <li>
+                        <input id="sign-in-button" type="button" value="Sign In">
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <img id="google-img" src="https://web.archive.org/web/20191130235109im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
             <form id="search-form" action="#">
                 <input id="search-bar" type="search">
                 <br>
-                <input id="search-button" type="submit" value="Google Search">
-                <input id="lucky-button" type="submit" value="I'm Feeling Lucky">
+                <div id="search-buttons">
+                    <input id="search-button" class="search-button" type="submit" value="Google Search">
+                    <input id="lucky-button" class="search-button" type="submit" value="I'm Feeling Lucky">
+                </div>
             </form>
         </main>
     </body>
