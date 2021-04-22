@@ -1,15 +1,15 @@
 main {
-    padding-top: 25px;
+    padding-top: 200px;
     text-align: center;
     margin: auto;
 }
 
 #google-img {
-    width: 35%;
+    width: 45%;
 }
 
 #search-bar {
-    width: 75%;
+    width: 350px;
     border-radius: 10px;
     border-color: lightgrey;
 }
@@ -97,6 +97,6 @@ footer {
 #footer-ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 10;
     display: inline-flex;
 }
