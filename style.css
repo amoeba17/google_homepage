@@ -1,4 +1,5 @@
-body {
+main {
+    padding-top: 25px;
     text-align: center;
     margin: auto;
 }
@@ -8,5 +9,27 @@ body {
 }
 
 #search-bar {
-    width: 35%;
+    width: 75%;
+    border-radius: 10px;
+    border-color: lightgrey;
+}
+
+#search-bar:hover {
+    border-color: grey;
+    box-shadow: 1px 1px lightgrey;
+}
+
+#search-buttons {
+    padding-top: 10px;
+}
+
+.search-button {
+    width: 120px;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+.search-button:hover {
+    border-color: grey;
+    box-shadow: 1px 2px lightgrey;
 }
